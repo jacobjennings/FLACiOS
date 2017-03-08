@@ -22,6 +22,65 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		B3C2F9D31E6F8BC100639BF4 /* FLACFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C2F9CA1E6F8BC100639BF4 /* FLACFramework.framework */; };
+		B3C2F9D81E6F8BC100639BF4 /* FLACFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C2F9D71E6F8BC100639BF4 /* FLACFrameworkTests.swift */; };
+		B3C2F9DA1E6F8BC100639BF4 /* FLACFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = B3C2F9CC1E6F8BC100639BF4 /* FLACFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3C2FA5E1E6F8C6F00639BF4 /* analyze.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E4D15C7072A00B29E74 /* analyze.c */; };
+		B3C2FA5F1E6F8C6F00639BF4 /* decode.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E4F15C7072A00B29E74 /* decode.c */; };
+		B3C2FA601E6F8C6F00639BF4 /* encode.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E5115C7072A00B29E74 /* encode.c */; };
+		B3C2FA611E6F8C6F00639BF4 /* foreign_metadata.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E5315C7072A00B29E74 /* foreign_metadata.c */; };
+		B3C2FA621E6F8C6F00639BF4 /* iffscan.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E5515C7072A00B29E74 /* iffscan.c */; };
+		B3C2FA631E6F8C6F00639BF4 /* local_string_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E5615C7072A00B29E74 /* local_string_utils.c */; };
+		B3C2FA651E6F8C6F00639BF4 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E5915C7072A00B29E74 /* utils.c */; };
+		B3C2FA661E6F8C6F00639BF4 /* vorbiscomment.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E5B15C7072A00B29E74 /* vorbiscomment.c */; };
+		B3C2FA671E6F8C6F00639BF4 /* bitmath.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E5E15C7072A00B29E74 /* bitmath.c */; };
+		B3C2FA681E6F8C6F00639BF4 /* bitreader.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E5F15C7072A00B29E74 /* bitreader.c */; };
+		B3C2FA691E6F8C6F00639BF4 /* bitwriter.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E6015C7072A00B29E74 /* bitwriter.c */; };
+		B3C2FA6A1E6F8C6F00639BF4 /* cpu.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E6115C7072A00B29E74 /* cpu.c */; };
+		B3C2FA6B1E6F8C6F00639BF4 /* crc.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E6215C7072A00B29E74 /* crc.c */; };
+		B3C2FA6C1E6F8C6F00639BF4 /* fixed.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E6315C7072A00B29E74 /* fixed.c */; };
+		B3C2FA6D1E6F8C6F00639BF4 /* flac.pc.in in Sources */ = {isa = PBXBuildFile; fileRef = FE271E6415C7072A00B29E74 /* flac.pc.in */; };
+		B3C2FA6E1E6F8C6F00639BF4 /* float.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E6515C7072A00B29E74 /* float.c */; };
+		B3C2FA6F1E6F8C6F00639BF4 /* format.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E6615C7072A00B29E74 /* format.c */; };
+		B3C2FA701E6F8C6F00639BF4 /* lpc.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E6E15C7072A00B29E74 /* lpc.c */; };
+		B3C2FA711E6F8C6F00639BF4 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E6F15C7072A00B29E74 /* md5.c */; };
+		B3C2FA721E6F8C6F00639BF4 /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E7015C7072A00B29E74 /* memory.c */; };
+		B3C2FA731E6F8C6F00639BF4 /* metadata_iterators.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E7115C7072A00B29E74 /* metadata_iterators.c */; };
+		B3C2FA741E6F8C6F00639BF4 /* metadata_object.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E7215C7072A00B29E74 /* metadata_object.c */; };
+		B3C2FA751E6F8C6F00639BF4 /* stream_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E7715C7072A00B29E74 /* stream_decoder.c */; };
+		B3C2FA761E6F8C6F00639BF4 /* stream_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E7815C7072A00B29E74 /* stream_encoder.c */; };
+		B3C2FA771E6F8C6F00639BF4 /* stream_encoder_framing.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E7915C7072A00B29E74 /* stream_encoder_framing.c */; };
+		B3C2FA781E6F8C6F00639BF4 /* window.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E7A15C7072A00B29E74 /* window.c */; };
+		B3C2FA791E6F8C6F00639BF4 /* flac++.pc.in in Sources */ = {isa = PBXBuildFile; fileRef = FE271E7C15C7072A00B29E74 /* flac++.pc.in */; };
+		B3C2FA7A1E6F8C6F00639BF4 /* libFLAC++.m4 in Sources */ = {isa = PBXBuildFile; fileRef = FE271E7D15C7072A00B29E74 /* libFLAC++.m4 */; };
+		B3C2FA7B1E6F8C6F00639BF4 /* metadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE271E7E15C7072A00B29E74 /* metadata.cpp */; };
+		B3C2FA7C1E6F8C6F00639BF4 /* stream_decoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE271E7F15C7072A00B29E74 /* stream_decoder.cpp */; };
+		B3C2FA7D1E6F8C6F00639BF4 /* stream_encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE271E8015C7072A00B29E74 /* stream_encoder.cpp */; };
+		B3C2FA7F1E6F8C6F00639BF4 /* operations.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E8315C7072A00B29E74 /* operations.c */; };
+		B3C2FA801E6F8C6F00639BF4 /* operations_shorthand_cuesheet.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E8615C7072A00B29E74 /* operations_shorthand_cuesheet.c */; };
+		B3C2FA811E6F8C6F00639BF4 /* operations_shorthand_picture.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E8715C7072A00B29E74 /* operations_shorthand_picture.c */; };
+		B3C2FA821E6F8C6F00639BF4 /* operations_shorthand_seektable.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E8815C7072A00B29E74 /* operations_shorthand_seektable.c */; };
+		B3C2FA831E6F8C6F00639BF4 /* operations_shorthand_streaminfo.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E8915C7072A00B29E74 /* operations_shorthand_streaminfo.c */; };
+		B3C2FA841E6F8C6F00639BF4 /* operations_shorthand_vorbiscomment.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E8A15C7072A00B29E74 /* operations_shorthand_vorbiscomment.c */; };
+		B3C2FA851E6F8C6F00639BF4 /* options.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E8B15C7072A00B29E74 /* options.c */; };
+		B3C2FA861E6F8C6F00639BF4 /* usage.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E8D15C7072A00B29E74 /* usage.c */; };
+		B3C2FA871E6F8C6F00639BF4 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E8F15C7072A00B29E74 /* utils.c */; };
+		B3C2FA881E6F8C6F00639BF4 /* utils.h in Sources */ = {isa = PBXBuildFile; fileRef = FE271E9015C7072A00B29E74 /* utils.h */; };
+		B3C2FA891E6F8C6F00639BF4 /* getopt.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E9315C7072A00B29E74 /* getopt.c */; };
+		B3C2FA8A1E6F8C6F00639BF4 /* getopt1.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E9415C7072A00B29E74 /* getopt1.c */; };
+		B3C2FA8B1E6F8C6F00639BF4 /* cuesheet.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E9615C7072A00B29E74 /* cuesheet.c */; };
+		B3C2FA8C1E6F8C6F00639BF4 /* file.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E9715C7072A00B29E74 /* file.c */; };
+		B3C2FA8D1E6F8C6F00639BF4 /* picture.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E9815C7072A00B29E74 /* picture.c */; };
+		B3C2FA8E1E6F8C6F00639BF4 /* replaygain.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E9915C7072A00B29E74 /* replaygain.c */; };
+		B3C2FA8F1E6F8C6F00639BF4 /* seektable.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E9A15C7072A00B29E74 /* seektable.c */; };
+		B3C2FA901E6F8C6F00639BF4 /* README in Sources */ = {isa = PBXBuildFile; fileRef = FE271E9B15C7072A00B29E74 /* README */; };
+		B3C2FA911E6F8C6F00639BF4 /* replaygain_analysis.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271E9D15C7072A00B29E74 /* replaygain_analysis.c */; };
+		B3C2FA921E6F8C6F00639BF4 /* replaygain_synthesis.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271EA115C7072A00B29E74 /* replaygain_synthesis.c */; };
+		B3C2FA931E6F8C6F00639BF4 /* charset.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271EA415C7072A00B29E74 /* charset.c */; };
+		B3C2FA951E6F8C6F00639BF4 /* iconvert.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271EA815C7072A00B29E74 /* iconvert.c */; };
+		B3C2FA961E6F8C6F00639BF4 /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = FE271EAA15C7072A00B29E74 /* utf8.c */; };
+		B3C2FA9D1E6F8F6800639BF4 /* all.h in Headers */ = {isa = PBXBuildFile; fileRef = FE271E1315C7072A00B29E74 /* all.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3C2FAA01E6F912300639BF4 /* FLACEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C2FA9F1E6F912300639BF4 /* FLACEncoder.swift */; };
 		FE271E0415C706CB00B29E74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE271E0315C706CB00B29E74 /* Foundation.framework */; };
 		FE271E0A15C706CB00B29E74 /* FLACiOS.m in Sources */ = {isa = PBXBuildFile; fileRef = FE271E0915C706CB00B29E74 /* FLACiOS.m */; };
 		FE271EAB15C7072A00B29E74 /* all.h in Headers */ = {isa = PBXBuildFile; fileRef = FE271E1315C7072A00B29E74 /* all.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -141,6 +200,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		B3C2F9D41E6F8BC100639BF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE271DF715C706CB00B29E74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3C2F9C91E6F8BC100639BF4;
+			remoteInfo = FLACFramework;
+		};
 		FE271F3015C709EB00B29E74 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FE271DF715C706CB00B29E74 /* Project object */;
@@ -151,6 +217,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B3C2F9CA1E6F8BC100639BF4 /* FLACFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLACFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C2F9CC1E6F8BC100639BF4 /* FLACFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLACFramework.h; sourceTree = "<group>"; };
+		B3C2F9CD1E6F8BC100639BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C2F9D21E6F8BC100639BF4 /* FLACFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLACFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C2F9D71E6F8BC100639BF4 /* FLACFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLACFrameworkTests.swift; sourceTree = "<group>"; };
+		B3C2F9D91E6F8BC100639BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C2FA9E1E6F912200639BF4 /* FLACiOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FLACiOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		B3C2FA9F1E6F912300639BF4 /* FLACEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLACEncoder.swift; sourceTree = "<group>"; };
 		FE271E0015C706CB00B29E74 /* libFLACiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFLACiOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE271E0315C706CB00B29E74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FE271E0715C706CB00B29E74 /* FLACiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FLACiOS-Prefix.pch"; sourceTree = "<group>"; };
@@ -277,6 +351,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B3C2F9C61E6F8BC100639BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C2F9CF1E6F8BC100639BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C2F9D31E6F8BC100639BF4 /* FLACFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FE271DFD15C706CB00B29E74 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -288,11 +377,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B3C2F9CB1E6F8BC100639BF4 /* FLACFramework */ = {
+			isa = PBXGroup;
+			children = (
+				B3C2F9CC1E6F8BC100639BF4 /* FLACFramework.h */,
+				B3C2F9CD1E6F8BC100639BF4 /* Info.plist */,
+			);
+			path = FLACFramework;
+			sourceTree = "<group>";
+		};
+		B3C2F9D61E6F8BC100639BF4 /* FLACFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3C2F9D71E6F8BC100639BF4 /* FLACFrameworkTests.swift */,
+				B3C2F9D91E6F8BC100639BF4 /* Info.plist */,
+			);
+			path = FLACFrameworkTests;
+			sourceTree = "<group>";
+		};
 		FE271DF515C706CB00B29E74 = {
 			isa = PBXGroup;
 			children = (
 				FE271E1015C7072A00B29E74 /* libFLAC */,
 				FE271E0515C706CB00B29E74 /* FLACiOS */,
+				B3C2F9CB1E6F8BC100639BF4 /* FLACFramework */,
+				B3C2F9D61E6F8BC100639BF4 /* FLACFrameworkTests */,
 				FE271E0215C706CB00B29E74 /* Frameworks */,
 				FE271E0115C706CB00B29E74 /* Products */,
 			);
@@ -302,6 +411,8 @@
 			isa = PBXGroup;
 			children = (
 				FE271E0015C706CB00B29E74 /* libFLACiOS.a */,
+				B3C2F9CA1E6F8BC100639BF4 /* FLACFramework.framework */,
+				B3C2F9D21E6F8BC100639BF4 /* FLACFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -320,6 +431,8 @@
 				FE271E0815C706CB00B29E74 /* FLACiOS.h */,
 				FE271E0915C706CB00B29E74 /* FLACiOS.m */,
 				FE271E0615C706CB00B29E74 /* Supporting Files */,
+				B3C2FA9F1E6F912300639BF4 /* FLACEncoder.swift */,
+				B3C2FA9E1E6F912200639BF4 /* FLACiOS-Bridging-Header.h */,
 			);
 			path = FLACiOS;
 			sourceTree = "<group>";
@@ -628,6 +741,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		B3C2F9C71E6F8BC100639BF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C2F9DA1E6F8BC100639BF4 /* FLACFramework.h in Headers */,
+				B3C2FA9D1E6F8F6800639BF4 /* all.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FE271DFE15C706CB00B29E74 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -700,6 +822,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		B3C2F9C91E6F8BC100639BF4 /* FLACFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3C2F9DF1E6F8BC100639BF4 /* Build configuration list for PBXNativeTarget "FLACFramework" */;
+			buildPhases = (
+				B3C2F9C51E6F8BC100639BF4 /* Sources */,
+				B3C2F9C61E6F8BC100639BF4 /* Frameworks */,
+				B3C2F9C71E6F8BC100639BF4 /* Headers */,
+				B3C2F9C81E6F8BC100639BF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLACFramework;
+			productName = FLACFramework;
+			productReference = B3C2F9CA1E6F8BC100639BF4 /* FLACFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3C2F9D11E6F8BC100639BF4 /* FLACFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3C2F9E01E6F8BC100639BF4 /* Build configuration list for PBXNativeTarget "FLACFrameworkTests" */;
+			buildPhases = (
+				B3C2F9CE1E6F8BC100639BF4 /* Sources */,
+				B3C2F9CF1E6F8BC100639BF4 /* Frameworks */,
+				B3C2F9D01E6F8BC100639BF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3C2F9D51E6F8BC100639BF4 /* PBXTargetDependency */,
+			);
+			name = FLACFrameworkTests;
+			productName = FLACFrameworkTests;
+			productReference = B3C2F9D21E6F8BC100639BF4 /* FLACFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		FE271DFF15C706CB00B29E74 /* FLACiOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE271E0D15C706CB00B29E74 /* Build configuration list for PBXNativeTarget "FLACiOS" */;
@@ -724,8 +882,24 @@
 		FE271DF715C706CB00B29E74 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = UNLV;
+				TargetAttributes = {
+					B3C2F9C91E6F8BC100639BF4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 29VK4YENQY;
+						ProvisioningStyle = Automatic;
+					};
+					B3C2F9D11E6F8BC100639BF4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 29VK4YENQY;
+						ProvisioningStyle = Automatic;
+					};
+					FE271DFF15C706CB00B29E74 = {
+						LastSwiftMigration = 0820;
+					};
+				};
 			};
 			buildConfigurationList = FE271DFA15C706CB00B29E74 /* Build configuration list for PBXProject "FLACiOS" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -741,9 +915,28 @@
 			targets = (
 				FE271DFF15C706CB00B29E74 /* FLACiOS */,
 				FE271F2C15C709D900B29E74 /* Framework */,
+				B3C2F9C91E6F8BC100639BF4 /* FLACFramework */,
+				B3C2F9D11E6F8BC100639BF4 /* FLACFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3C2F9C81E6F8BC100639BF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C2F9D01E6F8BC100639BF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		FE271F2B15C708CE00B29E74 /* ShellScript */ = {
@@ -775,6 +968,75 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B3C2F9C51E6F8BC100639BF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C2FA5E1E6F8C6F00639BF4 /* analyze.c in Sources */,
+				B3C2FA5F1E6F8C6F00639BF4 /* decode.c in Sources */,
+				B3C2FA601E6F8C6F00639BF4 /* encode.c in Sources */,
+				B3C2FA611E6F8C6F00639BF4 /* foreign_metadata.c in Sources */,
+				B3C2FA621E6F8C6F00639BF4 /* iffscan.c in Sources */,
+				B3C2FA631E6F8C6F00639BF4 /* local_string_utils.c in Sources */,
+				B3C2FA651E6F8C6F00639BF4 /* utils.c in Sources */,
+				B3C2FA661E6F8C6F00639BF4 /* vorbiscomment.c in Sources */,
+				B3C2FA671E6F8C6F00639BF4 /* bitmath.c in Sources */,
+				B3C2FA681E6F8C6F00639BF4 /* bitreader.c in Sources */,
+				B3C2FA691E6F8C6F00639BF4 /* bitwriter.c in Sources */,
+				B3C2FA6A1E6F8C6F00639BF4 /* cpu.c in Sources */,
+				B3C2FA6B1E6F8C6F00639BF4 /* crc.c in Sources */,
+				B3C2FA6C1E6F8C6F00639BF4 /* fixed.c in Sources */,
+				B3C2FA6D1E6F8C6F00639BF4 /* flac.pc.in in Sources */,
+				B3C2FA6E1E6F8C6F00639BF4 /* float.c in Sources */,
+				B3C2FA6F1E6F8C6F00639BF4 /* format.c in Sources */,
+				B3C2FA701E6F8C6F00639BF4 /* lpc.c in Sources */,
+				B3C2FA711E6F8C6F00639BF4 /* md5.c in Sources */,
+				B3C2FA721E6F8C6F00639BF4 /* memory.c in Sources */,
+				B3C2FA731E6F8C6F00639BF4 /* metadata_iterators.c in Sources */,
+				B3C2FA741E6F8C6F00639BF4 /* metadata_object.c in Sources */,
+				B3C2FA751E6F8C6F00639BF4 /* stream_decoder.c in Sources */,
+				B3C2FA761E6F8C6F00639BF4 /* stream_encoder.c in Sources */,
+				B3C2FA771E6F8C6F00639BF4 /* stream_encoder_framing.c in Sources */,
+				B3C2FA781E6F8C6F00639BF4 /* window.c in Sources */,
+				B3C2FA791E6F8C6F00639BF4 /* flac++.pc.in in Sources */,
+				B3C2FA7A1E6F8C6F00639BF4 /* libFLAC++.m4 in Sources */,
+				B3C2FA7B1E6F8C6F00639BF4 /* metadata.cpp in Sources */,
+				B3C2FA7C1E6F8C6F00639BF4 /* stream_decoder.cpp in Sources */,
+				B3C2FA7D1E6F8C6F00639BF4 /* stream_encoder.cpp in Sources */,
+				B3C2FA7F1E6F8C6F00639BF4 /* operations.c in Sources */,
+				B3C2FA801E6F8C6F00639BF4 /* operations_shorthand_cuesheet.c in Sources */,
+				B3C2FA811E6F8C6F00639BF4 /* operations_shorthand_picture.c in Sources */,
+				B3C2FA821E6F8C6F00639BF4 /* operations_shorthand_seektable.c in Sources */,
+				B3C2FA831E6F8C6F00639BF4 /* operations_shorthand_streaminfo.c in Sources */,
+				B3C2FA841E6F8C6F00639BF4 /* operations_shorthand_vorbiscomment.c in Sources */,
+				B3C2FA851E6F8C6F00639BF4 /* options.c in Sources */,
+				B3C2FA861E6F8C6F00639BF4 /* usage.c in Sources */,
+				B3C2FA871E6F8C6F00639BF4 /* utils.c in Sources */,
+				B3C2FA881E6F8C6F00639BF4 /* utils.h in Sources */,
+				B3C2FA891E6F8C6F00639BF4 /* getopt.c in Sources */,
+				B3C2FA8A1E6F8C6F00639BF4 /* getopt1.c in Sources */,
+				B3C2FA8B1E6F8C6F00639BF4 /* cuesheet.c in Sources */,
+				B3C2FA8C1E6F8C6F00639BF4 /* file.c in Sources */,
+				B3C2FA8D1E6F8C6F00639BF4 /* picture.c in Sources */,
+				B3C2FA8E1E6F8C6F00639BF4 /* replaygain.c in Sources */,
+				B3C2FA8F1E6F8C6F00639BF4 /* seektable.c in Sources */,
+				B3C2FA901E6F8C6F00639BF4 /* README in Sources */,
+				B3C2FA911E6F8C6F00639BF4 /* replaygain_analysis.c in Sources */,
+				B3C2FA921E6F8C6F00639BF4 /* replaygain_synthesis.c in Sources */,
+				B3C2FA931E6F8C6F00639BF4 /* charset.c in Sources */,
+				B3C2FA951E6F8C6F00639BF4 /* iconvert.c in Sources */,
+				B3C2FA961E6F8C6F00639BF4 /* utf8.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C2F9CE1E6F8BC100639BF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C2F9D81E6F8BC100639BF4 /* FLACFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FE271DFC15C706CB00B29E74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -815,6 +1077,7 @@
 				FE271F1015C7072A00B29E74 /* operations_shorthand_picture.c in Sources */,
 				FE271F1115C7072A00B29E74 /* operations_shorthand_seektable.c in Sources */,
 				FE271F1215C7072A00B29E74 /* operations_shorthand_streaminfo.c in Sources */,
+				B3C2FAA01E6F912300639BF4 /* FLACEncoder.swift in Sources */,
 				FE271F1315C7072A00B29E74 /* operations_shorthand_vorbiscomment.c in Sources */,
 				FE271F1415C7072A00B29E74 /* options.c in Sources */,
 				FE271F1615C7072A00B29E74 /* usage.c in Sources */,
@@ -838,6 +1101,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		B3C2F9D51E6F8BC100639BF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3C2F9C91E6F8BC100639BF4 /* FLACFramework */;
+			targetProxy = B3C2F9D41E6F8BC100639BF4 /* PBXContainerItemProxy */;
+		};
 		FE271F3115C709EB00B29E74 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FE271DFF15C706CB00B29E74 /* FLACiOS */;
@@ -846,6 +1114,158 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		B3C2F9DB1E6F8BC100639BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 29VK4YENQY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include,
+					"\"${SRCROOT}/libFlac/include\"",
+				);
+				INFOPLIST_FILE = FLACFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Navdy.FLACFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3C2F9DC1E6F8BC100639BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 29VK4YENQY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include,
+					"\"${SRCROOT}/libFlac/include\"",
+				);
+				INFOPLIST_FILE = FLACFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Navdy.FLACFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3C2F9DD1E6F8BC100639BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 29VK4YENQY;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = FLACFrameworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Navdy.FLACFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B3C2F9DE1E6F8BC100639BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 29VK4YENQY;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = FLACFrameworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Navdy.FLACFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		FE271E0B15C706CB00B29E74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -913,6 +1333,7 @@
 		FE271E0E15C706CB00B29E74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
 				DSTROOT = /tmp/FLACiOS.dst;
@@ -923,17 +1344,22 @@
 					/opt/local/include,
 					"\"${SRCROOT}/libFlac/include\"",
 				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "\"$(PROJECT_NAME)Headers\" ";
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
+				SWIFT_OBJC_BRIDGING_HEADER = "FLACiOS/FLACiOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		FE271E0F15C706CB00B29E74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
 				DSTROOT = /tmp/FLACiOS.dst;
@@ -944,11 +1370,14 @@
 					/opt/local/include,
 					"\"${SRCROOT}/libFlac/include\"",
 				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "\"$(PROJECT_NAME)Headers\" ";
 				SKIP_INSTALL = YES;
 				STRIP_STYLE = "non-global";
+				SWIFT_OBJC_BRIDGING_HEADER = "FLACiOS/FLACiOS-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -969,6 +1398,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B3C2F9DF1E6F8BC100639BF4 /* Build configuration list for PBXNativeTarget "FLACFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C2F9DB1E6F8BC100639BF4 /* Debug */,
+				B3C2F9DC1E6F8BC100639BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3C2F9E01E6F8BC100639BF4 /* Build configuration list for PBXNativeTarget "FLACFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C2F9DD1E6F8BC100639BF4 /* Debug */,
+				B3C2F9DE1E6F8BC100639BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		FE271DFA15C706CB00B29E74 /* Build configuration list for PBXProject "FLACiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
